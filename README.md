@@ -19,7 +19,7 @@ The database contains the URL, destination IP, timestamp, latitude, longitude et
 - PyGeoLite – correlates IP address to physical location which retrieves the latitude, longitude and region of the user.
 - Wireshark – used to capture packets (pcap files).
 - Ettercap – network security tool used in computers for security auditing and network protocol analysis. It is used for intercepting traffic on network segment, conducting active eavesdropping against a number of protocols and capturing passwords.
-Google map – displays geographical location of the destination of the packet.
+- Google Earth API – displays geographical location of the destination of the packet.
 
 3.) Implementation:
 - Initially, packets are captured using wireshark and live packet are captured using Ettercap.
